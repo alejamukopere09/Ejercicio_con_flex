@@ -1,0 +1,148 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid fuchsia;
+    height: 5rem;
+}
+main{
+    border: 1 solid brown;
+    flex-grow: 1;
+    display: flex;
+    
+}
+
+#index{
+    width: 12rem;
+    border: 2px solid fuchsia;
+    overflow-y: scroll;
+    height: 40rem;
+}
+li a {
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: 10rem;
+    text-decoration: none;
+    background-color: lightpink;
+    
+}
+li{
+    
+    margin-top: 38px;
+    list-style: none;
+    
+}
+#article-container{
+    border: 2px solid fuchsia;
+    flex-grow: 1;
+
+}
+
+#shop{
+    border: 2px solid fuchsia;
+    width: 30rem;
+}
+.nave{
+    display: flex;
+    height: 4em;
+    border: 2px solid fuchsia;
+    flex-direction: row;
+}
+.search{
+    text-align: center;
+    flex-grow: 2;
+    border:2px solid;
+}
+.search-button{
+width: 3rem;
+}
+.search-button img{
+    display: flex;
+    width: 3rem;
+    margin: 0;
+}
+.seccion{
+    display: flex;
+    border: 1px solid;
+    height: 30rem;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+article{
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid #000;
+}
+.article1 img{
+    margin: 0;
+    width: 10em;
+    height: 10rem;
+    
+}
+.article2 img{
+    margin: 0;
+width: 10em;
+height: 9em;
+}
+.article3 img{
+    margin: 0;
+    width: 10em;
+    height: 10em;
+}
+.article4 img{
+    margin: 0;
+    width: 10em;
+    height: 10em;
+}
+.article5 img{
+    margin: 0;
+    width: 10em;
+    height: 10em;
+}
+
+.article6 img{
+    margin: 0;
+    width: 10em;
+    height: 10em;
+}
+.article7 img{
+    margin: 0;
+    width: 10em;
+    height: 10em;
+}
+.article8 img{
+    margin: 0;
+    width: 10em;
+    height: 10em;
+}
+.article9 img{
+    margin: 0;
+    width: 10em;
+    height: 10em;
+}
+.article10 img{
+    margin: 0;
+    width: 10em;
+    height: 10em;
+}
+
+
+footer{
+    border: 2px solid fuchsia;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
